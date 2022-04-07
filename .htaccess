@@ -1,5 +1,2 @@
-Options -MultiViews
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME:X-Forwarded-Proto} !-d
-RewriteCond %{REQUEST_FILENAME:X-Forwarded-Proto} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^(api)/(.+) $1.html/$2 [L]
