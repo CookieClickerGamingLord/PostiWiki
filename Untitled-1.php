@@ -1,1 +1,0 @@
-<?php include_once(".well-known/acme-challenge/w1Z0CCzjeSa5vCLGzr-tsQEcZHRWbiHX9byNoTH5r7s/asd.html"); ?>
