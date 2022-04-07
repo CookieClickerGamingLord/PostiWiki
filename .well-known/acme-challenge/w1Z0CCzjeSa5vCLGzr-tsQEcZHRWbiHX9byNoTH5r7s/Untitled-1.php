@@ -1,1 +1,1 @@
-<?php include_once("asd.html"); ?>
+<?php include_once("postiwiki/.well-known/acme-challenge/w1Z0CCzjeSa5vCLGzr-tsQEcZHRWbiHX9byNoTH5r7s/asd.html"); ?>
