@@ -1,0 +1,100 @@
+
+/* General website */
+body {
+    background-color: #494947;
+    margin: 0;
+    font-family: 'Merriweather';
+  }
+  h1 {
+    color: black; 
+    font-size: 2vw;
+    font-family: 'Merriweather';
+   text-align: center; 
+    margin-left: 200px;
+    width: 1500px;
+    word-wrap: break-word; 
+  }
+  p {
+    color: red;
+    font-family: 'Merriweather';
+  }
+
+  /* Topbar for navigation */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+
+    /* Jos haluaa topnavin pysymaan ylhaalla
+    position: fixed;
+    top: 0;
+    width: 100%; */
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #5600bf;
+    color: white;
+  }
+
+
+
+
+  /* Picture with text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 250px;
+    font-size: 1vw;
+  }
+  .jesus {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather';
+  }
+
+
+
+
+ /* Bottom bar */
+  .botnav {
+    overflow: hidden;
+    background-color: #333;
+    bottom: 0;
+    position: absolute;
+    width:100%;
+    height: 4rem;
+  }
+
+  .botnav p {
+    color: #f2f2f2;
+    text-align: center;
+
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Merriweather';
+  }
+
+
+
+  #content-wrap {
+    padding-bottom: 4rem;    /* Footer height */
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
