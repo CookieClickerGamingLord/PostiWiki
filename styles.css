@@ -9,10 +9,11 @@ body {
     color: black; 
     font-size: 2vw;
     font-family: 'Merriweather';
-   text-align: center; 
-    margin-left: 200px;
-    width: 1500px;
+    text-align: center; 
+    margin-left: 11%;
+    width: 78%;
     word-wrap: break-word; 
+    
   }
   p {
     color: red;
@@ -55,8 +56,8 @@ body {
   /* Picture with text */
   .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 250px;
+    bottom: 2%;
+    left: 15%;
     font-size: 1vw;
   }
   .jesus {
